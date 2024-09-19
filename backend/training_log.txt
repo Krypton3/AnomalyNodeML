@@ -1,0 +1,10 @@
+Epoch 1 - accuracy: 0.8952, loss: -275521.5000, val_accuracy: 0.8969, val_loss: -1200481.1250
+Epoch 2 - accuracy: 0.8928, loss: -5115365.0000, val_accuracy: 0.8979, val_loss: -11175027.0000
+Epoch 3 - accuracy: 0.8878, loss: -23746354.0000, val_accuracy: 0.8969, val_loss: -39783144.0000
+Epoch 4 - accuracy: 0.8840, loss: -66925404.0000, val_accuracy: 0.8883, val_loss: -99306800.0000
+Epoch 5 - accuracy: 0.8820, loss: -149392928.0000, val_accuracy: 0.8878, val_loss: -205276368.0000
+Epoch 6 - accuracy: 0.8811, loss: -286457792.0000, val_accuracy: 0.8871, val_loss: -373699712.0000
+Epoch 7 - accuracy: 0.8797, loss: -496030208.0000, val_accuracy: 0.8865, val_loss: -624543168.0000
+Epoch 8 - accuracy: 0.8791, loss: -799890688.0000, val_accuracy: 0.8862, val_loss: -979656704.0000
+Epoch 9 - accuracy: 0.8786, loss: -1219176064.0000, val_accuracy: 0.8857, val_loss: -1460202368.0000
+Epoch 10 - accuracy: 0.8779, loss: -1779841792.0000, val_accuracy: 0.8855, val_loss: -2095250304.0000
