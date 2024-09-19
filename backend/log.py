@@ -13,3 +13,7 @@ class LogFile(tf.keras.callbacks.Callback):
                     f"loss: {logs['loss']:.4f}, " +
                     f"val_accuracy: {logs['val_accuracy']:.4f}, " +
                     f"val_loss: {logs['val_loss']:.4f}\n")
+
+    def log_message(self, message):
+        with open(self.file_name, 'a') as f:
+            f.write(message + '\n')
