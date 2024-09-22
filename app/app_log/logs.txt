@@ -1,0 +1,229 @@
+Data loaded and converted to DataFrame:            Date first seen   Duration  Proto    Src IP Addr  Src Pt    Dst IP Addr   Dst Pt  ...  Flows   Flags  Tos   class  attackType attackID attackDescription
+0  2017-03-14 17:43:57.172  81412.697  TCP       EXT_SERVER    8082  OPENSTACK_NET  56978.0  ...      1  .AP...    0  normal         ---      ---               ---
+1  2017-03-14 17:43:57.172  81412.697  TCP    OPENSTACK_NET   56978     EXT_SERVER   8082.0  ...      1  .AP...    0  normal         ---      ---               ---
+2  2017-03-14 17:43:26.135  81504.787  TCP       EXT_SERVER    8082  OPENSTACK_NET  56979.0  ...      1  .AP...    0  normal         ---      ---               ---
+3  2017-03-14 17:43:26.135  81504.787  TCP    OPENSTACK_NET   56979     EXT_SERVER   8082.0  ...      1  .AP...    0  normal         ---      ---               ---
+4  2017-03-14 18:17:09.005  82100.692  TCP       EXT_SERVER    8082  OPENSTACK_NET  51649.0  ...      1  .AP.S.    0  normal         ---      ---               ---
+
+[5 rows x 16 columns]
+Epoch 1 - accuracy: 0.8632, loss: -783.8583, val_accuracy: 0.8765, val_loss: -4086.2393
+Epoch 2 - accuracy: 0.8628, loss: -25582.4453, val_accuracy: 0.8610, val_loss: -62276.7969
+Epoch 3 - accuracy: 0.8553, loss: -154194.0781, val_accuracy: 0.8637, val_loss: -271929.5000
+Epoch 4 - accuracy: 0.8579, loss: -494971.4688, val_accuracy: 0.8693, val_loss: -742167.1250
+Epoch 5 - accuracy: 0.8545, loss: -1152655.5000, val_accuracy: 0.8465, val_loss: -1560317.0000
+Epoch 6 - accuracy: 0.8475, loss: -2214059.2500, val_accuracy: 0.8534, val_loss: -2824667.0000
+Epoch 7 - accuracy: 0.8447, loss: -3778964.7500, val_accuracy: 0.8534, val_loss: -4610378.5000
+Epoch 8 - accuracy: 0.8447, loss: -5948885.5000, val_accuracy: 0.8402, val_loss: -7045412.5000
+Epoch 9 - accuracy: 0.8401, loss: -8824783.0000, val_accuracy: 0.8456, val_loss: -10208664.0000
+Epoch 10 - accuracy: 0.8394, loss: -12501781.0000, val_accuracy: 0.8630, val_loss: -14193495.0000
+Test accuracy: 0.8618744611740112
+Test loss: -13301133.0
+Currently trained data list: ['train.csv']
+Data loaded and converted to DataFrame:            Date first seen  Duration  Proto Src IP Addr  Src Pt Dst IP Addr   Dst Pt  ...  Flows   Flags  Tos       class  attackType attackID attackDescription
+0  2017-03-18 02:24:23.560     8.525  TCP    EXT_SERVER      22   10012_224  57495.0  ...      1  .AP.SF    0  suspicious         ---      ---               ---
+1  2017-03-18 02:24:23.560     8.525  TCP     10012_224   57495  EXT_SERVER     22.0  ...      1  .AP.SF    0  suspicious         ---      ---               ---
+2  2017-03-18 01:29:02.795    32.999  TCP    EXT_SERVER      80    12947_37  44410.0  ...      1  .A..S.    0     unknown         ---      ---               ---
+3  2017-03-18 01:29:02.795    32.999  TCP      12947_37   44410  EXT_SERVER     80.0  ...      1  ....S.    0     unknown         ---      ---               ---
+4  2017-03-18 01:29:05.796    30.999  TCP    EXT_SERVER      80    12947_37  58760.0  ...      1  .A..S.    0     unknown         ---      ---               ---
+
+[5 rows x 16 columns]
+Epoch 1 - accuracy: 0.7327, loss: -5527.6738, val_accuracy: 0.6932, val_loss: -30370.0449
+Epoch 2 - accuracy: 0.6847, loss: -174876.4844, val_accuracy: 0.6827, val_loss: -458913.3125
+Epoch 3 - accuracy: 0.6575, loss: -1050753.3750, val_accuracy: 0.6498, val_loss: -2013460.3750
+Epoch 4 - accuracy: 0.6377, loss: -3338038.7500, val_accuracy: 0.6426, val_loss: -5395501.0000
+Epoch 5 - accuracy: 0.6275, loss: -7727306.5000, val_accuracy: 0.6297, val_loss: -11384155.0000
+Epoch 6 - accuracy: 0.6195, loss: -14849415.0000, val_accuracy: 0.6247, val_loss: -20532694.0000
+Epoch 7 - accuracy: 0.6130, loss: -25337284.0000, val_accuracy: 0.6149, val_loss: -33565684.0000
+Epoch 8 - accuracy: 0.6086, loss: -39790672.0000, val_accuracy: 0.6106, val_loss: -51151560.0000
+Epoch 9 - accuracy: 0.6044, loss: -58895764.0000, val_accuracy: 0.6040, val_loss: -74061928.0000
+Epoch 10 - accuracy: 0.5982, loss: -83592352.0000, val_accuracy: 0.6040, val_loss: -103227208.0000
+Test accuracy: 0.6277118921279907
+Test loss: -94637888.0
+Currently trained data list: ['train.csv', 'train_1.csv']
+Data loaded and converted to DataFrame:            Date first seen  Duration  Proto Src IP Addr  Src Pt Dst IP Addr   Dst Pt  ...  Flows   Flags  Tos       class  attackType attackID attackDescription
+0  2017-03-19 08:24:25.647   141.672  TCP      10004_36   11594  EXT_SERVER     22.0  ...      1  .A.RS.    0  suspicious         ---      ---               ---
+1  2017-03-19 08:24:25.647   141.672  TCP    EXT_SERVER      22    10004_36  11594.0  ...      1  .AP.SF    0  suspicious         ---      ---               ---
+2  2017-03-19 07:29:19.128    30.999  TCP       16209_4   47650  EXT_SERVER     22.0  ...      1  ....S.    0  suspicious         ---      ---               ---
+3  2017-03-19 07:29:19.128    30.999  TCP    EXT_SERVER      22     16209_4  47650.0  ...      1  .A..S.    0  suspicious         ---      ---               ---
+4  2017-03-19 08:28:03.990     5.546  TCP      10006_27   46333  EXT_SERVER     22.0  ...      1  .APRSF    0  suspicious         ---      ---               ---
+
+[5 rows x 16 columns]
+Epoch 1 - accuracy: 0.9586, loss: -149.9663, val_accuracy: 0.9667, val_loss: -984.1354
+Epoch 2 - accuracy: 0.9605, loss: -6190.5967, val_accuracy: 0.9561, val_loss: -17614.0078
+Epoch 3 - accuracy: 0.9535, loss: -36827.0977, val_accuracy: 0.9514, val_loss: -73577.2891
+Epoch 4 - accuracy: 0.9544, loss: -115495.4062, val_accuracy: 0.9604, val_loss: -198675.8281
+Epoch 5 - accuracy: 0.9614, loss: -268602.1875, val_accuracy: 0.9609, val_loss: -421480.5938
+Epoch 6 - accuracy: 0.9590, loss: -518657.6562, val_accuracy: 0.9505, val_loss: -766939.6875
+Epoch 7 - accuracy: 0.9516, loss: -897300.2500, val_accuracy: 0.9508, val_loss: -1275012.5000
+Epoch 8 - accuracy: 0.9513, loss: -1422531.2500, val_accuracy: 0.9535, val_loss: -1956507.3750
+Epoch 9 - accuracy: 0.9527, loss: -2119625.0000, val_accuracy: 0.9485, val_loss: -2831874.7500
+Epoch 10 - accuracy: 0.9531, loss: -2990277.5000, val_accuracy: 0.9562, val_loss: -3938474.0000
+Test accuracy: 0.952415406703949
+Test loss: -3389083.0
+Currently trained data list: ['train.csv', 'train_1.csv', 'train_2.csv']
+Data loaded and converted to DataFrame:            Date first seen  Duration  Proto Src IP Addr  Src Pt Dst IP Addr   Dst Pt  ...  Flows   Flags  Tos       class  attackType attackID attackDescription
+0  2017-03-20 16:16:42.647     6.477  TCP    EXT_SERVER      22    10004_36  28504.0  ...      1  .AP.S.    0  suspicious         ---      ---               ---
+1  2017-03-20 16:13:37.355    15.345  TCP      10006_27   34787  EXT_SERVER     22.0  ...      1  .AP.SF    0  suspicious         ---      ---               ---
+2  2017-03-20 16:13:37.355    15.345  TCP    EXT_SERVER      22    10006_27  34787.0  ...      1  .AP.SF    0  suspicious         ---      ---               ---
+3  2017-03-20 16:14:44.030     2.580  TCP     10331_203   35019  EXT_SERVER     22.0  ...      1  .AP.SF    0  suspicious         ---      ---               ---
+4  2017-03-20 16:14:44.030     2.580  TCP    EXT_SERVER      22   10331_203  35019.0  ...      1  .AP.SF    0  suspicious         ---      ---               ---
+
+[5 rows x 16 columns]
+Epoch 1 - accuracy: 0.9765, loss: -0.6081, val_accuracy: 0.9897, val_loss: -2.9242
+Epoch 2 - accuracy: 0.9877, loss: -32.1063, val_accuracy: 0.9893, val_loss: -72.9892
+Epoch 3 - accuracy: 0.9876, loss: -243.4952, val_accuracy: 0.9893, val_loss: -387.5935
+Epoch 4 - accuracy: 0.9881, loss: -843.6982, val_accuracy: 0.9893, val_loss: -1105.9929
+Epoch 5 - accuracy: 0.9877, loss: -2080.3433, val_accuracy: 0.9893, val_loss: -2434.7537
+Epoch 6 - accuracy: 0.9875, loss: -4127.5679, val_accuracy: 0.9892, val_loss: -4510.6333
+Epoch 7 - accuracy: 0.9879, loss: -7216.2251, val_accuracy: 0.9893, val_loss: -7555.7441
+Epoch 8 - accuracy: 0.9876, loss: -11602.2666, val_accuracy: 0.9899, val_loss: -11808.8066
+Epoch 9 - accuracy: 0.9879, loss: -17541.0137, val_accuracy: 0.9886, val_loss: -17311.5059
+Epoch 10 - accuracy: 0.9878, loss: -25144.7129, val_accuracy: 0.9888, val_loss: -24329.9883
+Test accuracy: 0.9877061247825623
+Test loss: -28616.859375
+Currently trained data list: ['train.csv', 'train_1.csv', 'train_2.csv', 'train_3.csv']
+Data loaded and converted to DataFrame:            Date first seen   Duration  Proto    Src IP Addr  Src Pt    Dst IP Addr   Dst Pt  ...  Flows   Flags  Tos   class  attackType attackID attackDescription
+0  2017-03-14 17:43:57.172  81412.697  TCP       EXT_SERVER    8082  OPENSTACK_NET  56978.0  ...      1  .AP...    0  normal         ---      ---               ---
+1  2017-03-14 17:43:57.172  81412.697  TCP    OPENSTACK_NET   56978     EXT_SERVER   8082.0  ...      1  .AP...    0  normal         ---      ---               ---
+2  2017-03-14 17:43:26.135  81504.787  TCP       EXT_SERVER    8082  OPENSTACK_NET  56979.0  ...      1  .AP...    0  normal         ---      ---               ---
+3  2017-03-14 17:43:26.135  81504.787  TCP    OPENSTACK_NET   56979     EXT_SERVER   8082.0  ...      1  .AP...    0  normal         ---      ---               ---
+4  2017-03-14 18:17:09.005  82100.692  TCP       EXT_SERVER    8082  OPENSTACK_NET  51649.0  ...      1  .AP.S.    0  normal         ---      ---               ---
+
+[5 rows x 16 columns]
+Epoch 1 - accuracy: 0.8689, loss: -780.1406, val_accuracy: 0.8754, val_loss: -4013.4072
+Epoch 2 - accuracy: 0.8610, loss: -24742.7363, val_accuracy: 0.8592, val_loss: -60595.0039
+Epoch 3 - accuracy: 0.8509, loss: -148766.6250, val_accuracy: 0.8521, val_loss: -259789.5938
+Epoch 4 - accuracy: 0.8396, loss: -465127.0938, val_accuracy: 0.8391, val_loss: -691017.2500
+Epoch 5 - accuracy: 0.8326, loss: -1068323.8750, val_accuracy: 0.8284, val_loss: -1446156.2500
+Epoch 6 - accuracy: 0.8288, loss: -2051548.1250, val_accuracy: 0.8411, val_loss: -2616043.5000
+Epoch 7 - accuracy: 0.8268, loss: -3512723.2500, val_accuracy: 0.8129, val_loss: -4293758.5000
+Epoch 8 - accuracy: 0.8239, loss: -5533714.5000, val_accuracy: 0.8686, val_loss: -6553070.5000
+Epoch 9 - accuracy: 0.8165, loss: -8211674.5000, val_accuracy: 0.8561, val_loss: -9494533.0000
+Epoch 10 - accuracy: 0.8169, loss: -11633836.0000, val_accuracy: 0.8414, val_loss: -13201816.0000
+Test accuracy: 0.8432166576385498
+Test loss: -12373165.0
+Currently trained data list: ['train.csv']
+Data loaded and converted to DataFrame:            Date first seen   Duration  Proto    Src IP Addr  Src Pt    Dst IP Addr   Dst Pt  ...  Flows   Flags  Tos   class  attackType attackID attackDescription
+0  2017-03-14 17:43:57.172  81412.697  TCP       EXT_SERVER    8082  OPENSTACK_NET  56978.0  ...      1  .AP...    0  normal         ---      ---               ---
+1  2017-03-14 17:43:57.172  81412.697  TCP    OPENSTACK_NET   56978     EXT_SERVER   8082.0  ...      1  .AP...    0  normal         ---      ---               ---
+2  2017-03-14 17:43:26.135  81504.787  TCP       EXT_SERVER    8082  OPENSTACK_NET  56979.0  ...      1  .AP...    0  normal         ---      ---               ---
+3  2017-03-14 17:43:26.135  81504.787  TCP    OPENSTACK_NET   56979     EXT_SERVER   8082.0  ...      1  .AP...    0  normal         ---      ---               ---
+4  2017-03-14 18:17:09.005  82100.692  TCP       EXT_SERVER    8082  OPENSTACK_NET  51649.0  ...      1  .AP.S.    0  normal         ---      ---               ---
+
+[5 rows x 16 columns]
+Epoch 1 - accuracy: 0.8541, loss: -1432.5294, val_accuracy: 0.8689, val_loss: -7469.9868
+Epoch 2 - accuracy: 0.8449, loss: -47547.7891, val_accuracy: 0.8633, val_loss: -117014.3125
+Epoch 3 - accuracy: 0.8298, loss: -290076.5625, val_accuracy: 0.8581, val_loss: -504685.0938
+Epoch 4 - accuracy: 0.8242, loss: -910297.7500, val_accuracy: 0.7957, val_loss: -1357177.6250
+Epoch 5 - accuracy: 0.8219, loss: -2098773.2500, val_accuracy: 0.8644, val_loss: -2830406.2500
+Epoch 6 - accuracy: 0.8084, loss: -4001885.7500, val_accuracy: 0.7910, val_loss: -5075437.5000
+Epoch 7 - accuracy: 0.8100, loss: -6795507.5000, val_accuracy: 0.8322, val_loss: -8275259.0000
+Epoch 8 - accuracy: 0.8024, loss: -10640444.0000, val_accuracy: 0.7877, val_loss: -12551757.0000
+Epoch 9 - accuracy: 0.7982, loss: -15708700.0000, val_accuracy: 0.8346, val_loss: -18132998.0000
+Epoch 10 - accuracy: 0.7969, loss: -22221046.0000, val_accuracy: 0.7026, val_loss: -25223536.0000
+Test accuracy: 0.7134798765182495
+Test loss: -23661202.0
+Currently trained data list: ['train.csv']
+Data loaded and converted to DataFrame:            Date first seen   Duration  Proto    Src IP Addr  Src Pt    Dst IP Addr   Dst Pt  ...  Flows   Flags  Tos   class  attackType attackID attackDescription
+0  2017-03-14 17:43:57.172  81412.697  TCP       EXT_SERVER    8082  OPENSTACK_NET  56978.0  ...      1  .AP...    0  normal         ---      ---               ---
+1  2017-03-14 17:43:57.172  81412.697  TCP    OPENSTACK_NET   56978     EXT_SERVER   8082.0  ...      1  .AP...    0  normal         ---      ---               ---
+2  2017-03-14 17:43:26.135  81504.787  TCP       EXT_SERVER    8082  OPENSTACK_NET  56979.0  ...      1  .AP...    0  normal         ---      ---               ---
+3  2017-03-14 17:43:26.135  81504.787  TCP    OPENSTACK_NET   56979     EXT_SERVER   8082.0  ...      1  .AP...    0  normal         ---      ---               ---
+4  2017-03-14 18:17:09.005  82100.692  TCP       EXT_SERVER    8082  OPENSTACK_NET  51649.0  ...      1  .AP.S.    0  normal         ---      ---               ---
+
+[5 rows x 16 columns]
+Epoch 1 - accuracy: 0.8512, loss: -1484.6689, val_accuracy: 0.8780, val_loss: -7448.8789
+Epoch 2 - accuracy: 0.8565, loss: -45231.5781, val_accuracy: 0.8496, val_loss: -109508.0156
+Epoch 3 - accuracy: 0.8302, loss: -266703.0000, val_accuracy: 0.8223, val_loss: -464243.3438
+Epoch 4 - accuracy: 0.8268, loss: -830701.9375, val_accuracy: 0.8366, val_loss: -1231118.7500
+Epoch 5 - accuracy: 0.8415, loss: -1914141.1250, val_accuracy: 0.8411, val_loss: -2586225.0000
+Epoch 6 - accuracy: 0.8502, loss: -3671540.2500, val_accuracy: 0.8487, val_loss: -4666101.0000
+Epoch 7 - accuracy: 0.8554, loss: -6248466.5000, val_accuracy: 0.8707, val_loss: -7624484.5000
+Epoch 8 - accuracy: 0.8563, loss: -9835552.0000, val_accuracy: 0.8563, val_loss: -11630010.0000
+Epoch 9 - accuracy: 0.8600, loss: -14591282.0000, val_accuracy: 0.8762, val_loss: -16857434.0000
+Epoch 10 - accuracy: 0.8610, loss: -20667348.0000, val_accuracy: 0.8762, val_loss: -23445456.0000
+Test accuracy: 0.8748915195465088
+Test loss: -21987850.0
+Currently trained data list: ['train.csv']
+Data loaded and converted to DataFrame:            Date first seen  Duration  Proto    Src IP Addr  Src Pt    Dst IP Addr   Dst Pt  ...  Flows   Flags  Tos    class  attackType attackID attackDescription
+0  2017-03-16 13:03:02.581    30.997  TCP        12453_121       4     EXT_SERVER     80.0  ...      1  ....S.    0  unknown         ---      ---               ---
+1  2017-03-16 13:03:02.581    30.997  TCP       EXT_SERVER      80      12453_121      4.0  ...      1  .A..S.    0  unknown         ---      ---               ---
+2  2017-03-16 13:58:40.044     0.061  TCP       EXT_SERVER    8000  OPENSTACK_NET  52799.0  ...      1  .AP.SF    0   normal         ---      ---               ---
+3  2017-03-16 13:58:40.044     0.061  TCP    OPENSTACK_NET   52799     EXT_SERVER   8000.0  ...      1  .AP.SF    0   normal         ---      ---               ---
+4  2017-03-16 13:58:40.044     0.080  TCP       EXT_SERVER    8000  OPENSTACK_NET  52800.0  ...      1  .AP.SF    0   normal         ---      ---               ---
+
+[5 rows x 16 columns]
+Data loaded and converted to DataFrame:            Date first seen   Duration  Proto    Src IP Addr  Src Pt    Dst IP Addr   Dst Pt  ...  Flows   Flags  Tos   class  attackType attackID attackDescription
+0  2017-03-14 17:43:57.172  81412.697  TCP       EXT_SERVER    8082  OPENSTACK_NET  56978.0  ...      1  .AP...    0  normal         ---      ---               ---
+1  2017-03-14 17:43:57.172  81412.697  TCP    OPENSTACK_NET   56978     EXT_SERVER   8082.0  ...      1  .AP...    0  normal         ---      ---               ---
+2  2017-03-14 17:43:26.135  81504.787  TCP       EXT_SERVER    8082  OPENSTACK_NET  56979.0  ...      1  .AP...    0  normal         ---      ---               ---
+3  2017-03-14 17:43:26.135  81504.787  TCP    OPENSTACK_NET   56979     EXT_SERVER   8082.0  ...      1  .AP...    0  normal         ---      ---               ---
+4  2017-03-14 18:17:09.005  82100.692  TCP       EXT_SERVER    8082  OPENSTACK_NET  51649.0  ...      1  .AP.S.    0  normal         ---      ---               ---
+
+[5 rows x 16 columns]
+Epoch 1 - accuracy: 0.8515, loss: -1558.6434, val_accuracy: 0.8742, val_loss: -8233.7559
+Epoch 2 - accuracy: 0.8550, loss: -53050.3672, val_accuracy: 0.8537, val_loss: -129515.4844
+Epoch 3 - accuracy: 0.8375, loss: -320809.7812, val_accuracy: 0.8329, val_loss: -565038.8125
+Epoch 4 - accuracy: 0.8170, loss: -1026853.6875, val_accuracy: 0.8185, val_loss: -1529720.6250
+Epoch 5 - accuracy: 0.8305, loss: -2378865.5000, val_accuracy: 0.8461, val_loss: -3223126.2500
+Epoch 6 - accuracy: 0.8407, loss: -4556577.5000, val_accuracy: 0.8355, val_loss: -5797051.0000
+Epoch 7 - accuracy: 0.8444, loss: -7758070.0000, val_accuracy: 0.8707, val_loss: -9475199.0000
+Epoch 8 - accuracy: 0.8475, loss: -12205528.0000, val_accuracy: 0.8250, val_loss: -14435717.0000
+Epoch 9 - accuracy: 0.8469, loss: -18038722.0000, val_accuracy: 0.8501, val_loss: -20808660.0000
+Epoch 10 - accuracy: 0.8511, loss: -25409306.0000, val_accuracy: 0.8449, val_loss: -28830740.0000
+Test accuracy: 0.8443737626075745
+Test loss: -27020064.0
+Currently trained data list: ['train.csv']
+Data loaded and converted to DataFrame:            Date first seen  Duration  Proto    Src IP Addr  Src Pt    Dst IP Addr   Dst Pt  ...  Flows   Flags  Tos    class  attackType attackID attackDescription
+0  2017-03-16 13:03:02.581    30.997  TCP        12453_121       4     EXT_SERVER     80.0  ...      1  ....S.    0  unknown         ---      ---               ---
+1  2017-03-16 13:03:02.581    30.997  TCP       EXT_SERVER      80      12453_121      4.0  ...      1  .A..S.    0  unknown         ---      ---               ---
+2  2017-03-16 13:58:40.044     0.061  TCP       EXT_SERVER    8000  OPENSTACK_NET  52799.0  ...      1  .AP.SF    0   normal         ---      ---               ---
+3  2017-03-16 13:58:40.044     0.061  TCP    OPENSTACK_NET   52799     EXT_SERVER   8000.0  ...      1  .AP.SF    0   normal         ---      ---               ---
+4  2017-03-16 13:58:40.044     0.080  TCP       EXT_SERVER    8000  OPENSTACK_NET  52800.0  ...      1  .AP.SF    0   normal         ---      ---               ---
+
+[5 rows x 16 columns]
+Data loaded and converted to DataFrame:            Date first seen  Duration  Proto    Src IP Addr  Src Pt    Dst IP Addr   Dst Pt  ...  Flows   Flags  Tos    class  attackType attackID attackDescription
+0  2017-03-16 13:03:02.581    30.997  TCP        12453_121       4     EXT_SERVER     80.0  ...      1  ....S.    0  unknown         ---      ---               ---
+1  2017-03-16 13:03:02.581    30.997  TCP       EXT_SERVER      80      12453_121      4.0  ...      1  .A..S.    0  unknown         ---      ---               ---
+2  2017-03-16 13:58:40.044     0.061  TCP       EXT_SERVER    8000  OPENSTACK_NET  52799.0  ...      1  .AP.SF    0   normal         ---      ---               ---
+3  2017-03-16 13:58:40.044     0.061  TCP    OPENSTACK_NET   52799     EXT_SERVER   8000.0  ...      1  .AP.SF    0   normal         ---      ---               ---
+4  2017-03-16 13:58:40.044     0.080  TCP       EXT_SERVER    8000  OPENSTACK_NET  52800.0  ...      1  .AP.SF    0   normal         ---      ---               ---
+
+[5 rows x 16 columns]
+Data loaded and converted to DataFrame:            Date first seen  Duration  Proto    Src IP Addr  Src Pt    Dst IP Addr   Dst Pt  ...  Flows   Flags  Tos    class  attackType attackID attackDescription
+0  2017-03-16 13:03:02.581    30.997  TCP        12453_121       4     EXT_SERVER     80.0  ...      1  ....S.    0  unknown         ---      ---               ---
+1  2017-03-16 13:03:02.581    30.997  TCP       EXT_SERVER      80      12453_121      4.0  ...      1  .A..S.    0  unknown         ---      ---               ---
+2  2017-03-16 13:58:40.044     0.061  TCP       EXT_SERVER    8000  OPENSTACK_NET  52799.0  ...      1  .AP.SF    0   normal         ---      ---               ---
+3  2017-03-16 13:58:40.044     0.061  TCP    OPENSTACK_NET   52799     EXT_SERVER   8000.0  ...      1  .AP.SF    0   normal         ---      ---               ---
+4  2017-03-16 13:58:40.044     0.080  TCP       EXT_SERVER    8000  OPENSTACK_NET  52800.0  ...      1  .AP.SF    0   normal         ---      ---               ---
+
+[5 rows x 16 columns]
+Data loaded and converted to DataFrame:            Date first seen   Duration  Proto    Src IP Addr  Src Pt    Dst IP Addr  ...   Flags  Tos   class  attackType attackID  attackDescription
+0  2017-03-14 17:43:57.172  81412.697  TCP       EXT_SERVER    8082  OPENSTACK_NET  ...  .AP...    0  normal         ---      ---                ---
+1  2017-03-14 17:43:57.172  81412.697  TCP    OPENSTACK_NET   56978     EXT_SERVER  ...  .AP...    0  normal         ---      ---                ---
+2  2017-03-14 17:43:26.135  81504.787  TCP       EXT_SERVER    8082  OPENSTACK_NET  ...  .AP...    0  normal         ---      ---                ---
+3  2017-03-14 17:43:26.135  81504.787  TCP    OPENSTACK_NET   56979     EXT_SERVER  ...  .AP...    0  normal         ---      ---                ---
+4  2017-03-14 18:17:09.005  82100.692  TCP       EXT_SERVER    8082  OPENSTACK_NET  ...  .AP.S.    0  normal         ---      ---                ---
+
+[5 rows x 16 columns]
+Epoch 1 - accuracy: 0.8554, loss: -1364.9846, val_accuracy: 0.8734, val_loss: -6779.5728
+Epoch 2 - accuracy: 0.8594, loss: -40162.1875, val_accuracy: 0.8572, val_loss: -96405.7969
+Epoch 3 - accuracy: 0.8467, loss: -235722.7344, val_accuracy: 0.8494, val_loss: -409696.6875
+Epoch 4 - accuracy: 0.8336, loss: -731175.9375, val_accuracy: 0.8335, val_loss: -1081944.6250
+Epoch 5 - accuracy: 0.8191, loss: -1676832.7500, val_accuracy: 0.8239, val_loss: -2268320.2500
+Epoch 6 - accuracy: 0.8220, loss: -3226178.0000, val_accuracy: 0.8228, val_loss: -4128430.0000
+Epoch 7 - accuracy: 0.8146, loss: -5552499.0000, val_accuracy: 0.8427, val_loss: -6789856.5000
+Epoch 8 - accuracy: 0.8139, loss: -8764521.0000, val_accuracy: 0.8121, val_loss: -10394111.0000
+Epoch 9 - accuracy: 0.8121, loss: -13052010.0000, val_accuracy: 0.8073, val_loss: -15135565.0000
+Epoch 10 - accuracy: 0.8116, loss: -18597532.0000, val_accuracy: 0.8051, val_loss: -21157462.0000
+Test accuracy: 0.8066242337226868
+Test loss: -19830572.0
+Currently trained data list: ['train.csv']
+Data loaded and converted to DataFrame:            Date first seen  Duration  Proto    Src IP Addr  Src Pt    Dst IP Addr  ...   Flags  Tos    class  attackType attackID  attackDescription
+0  2017-03-16 13:03:02.581    30.997  TCP        12453_121       4     EXT_SERVER  ...  ....S.    0  unknown         ---      ---                ---
+1  2017-03-16 13:03:02.581    30.997  TCP       EXT_SERVER      80      12453_121  ...  .A..S.    0  unknown         ---      ---                ---
+2  2017-03-16 13:58:40.044     0.061  TCP       EXT_SERVER    8000  OPENSTACK_NET  ...  .AP.SF    0   normal         ---      ---                ---
+3  2017-03-16 13:58:40.044     0.061  TCP    OPENSTACK_NET   52799     EXT_SERVER  ...  .AP.SF    0   normal         ---      ---                ---
+4  2017-03-16 13:58:40.044     0.080  TCP       EXT_SERVER    8000  OPENSTACK_NET  ...  .AP.SF    0   normal         ---      ---                ---
+
+[5 rows x 16 columns]

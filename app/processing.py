@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 # Use the custom callback during training
-log_callback = LogFile('logs/logs.txt')
+log_callback = LogFile('app_log/logs.txt')
 
 
 def bytes_to_neumeric(value: str) -> float:

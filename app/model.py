@@ -10,7 +10,7 @@ from processing import load_and_process_data
 
 
 # Use the custom callback during training
-log_callback = LogFile('logs/logs.txt')
+log_callback = LogFile('app_log/logs.txt')
 
 MODEL_PATH = "data/anomaly_model.keras"
 TRAIN_DATA_PATH = "data/"
