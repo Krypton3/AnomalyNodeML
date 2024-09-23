@@ -227,3 +227,24 @@ Data loaded and converted to DataFrame:            Date first seen  Duration  Pr
 4  2017-03-16 13:58:40.044     0.080  TCP       EXT_SERVER    8000  OPENSTACK_NET  ...  .AP.SF    0   normal         ---      ---                ---
 
 [5 rows x 16 columns]
+Data loaded and converted to DataFrame:            Date first seen   Duration  Proto    Src IP Addr  Src Pt    Dst IP Addr  ...   Flags  Tos   class  attackType attackID  attackDescription
+0  2017-03-14 17:43:57.172  81412.697  TCP       EXT_SERVER    8082  OPENSTACK_NET  ...  .AP...    0  normal         ---      ---                ---
+1  2017-03-14 17:43:57.172  81412.697  TCP    OPENSTACK_NET   56978     EXT_SERVER  ...  .AP...    0  normal         ---      ---                ---
+2  2017-03-14 17:43:26.135  81504.787  TCP       EXT_SERVER    8082  OPENSTACK_NET  ...  .AP...    0  normal         ---      ---                ---
+3  2017-03-14 17:43:26.135  81504.787  TCP    OPENSTACK_NET   56979     EXT_SERVER  ...  .AP...    0  normal         ---      ---                ---
+4  2017-03-14 18:17:09.005  82100.692  TCP       EXT_SERVER    8082  OPENSTACK_NET  ...  .AP.S.    0  normal         ---      ---                ---
+
+[5 rows x 16 columns]
+Epoch 1 - accuracy: 0.8666, loss: -1203.7867, val_accuracy: 0.8776, val_loss: -6283.1899
+Epoch 2 - accuracy: 0.8617, loss: -42432.8438, val_accuracy: 0.8606, val_loss: -103509.5469
+Epoch 3 - accuracy: 0.8490, loss: -251221.2969, val_accuracy: 0.8501, val_loss: -440104.6250
+Epoch 4 - accuracy: 0.8345, loss: -793673.0625, val_accuracy: 0.8376, val_loss: -1181468.3750
+Epoch 5 - accuracy: 0.8214, loss: -1828238.6250, val_accuracy: 0.8253, val_loss: -2469936.0000
+Epoch 6 - accuracy: 0.8140, loss: -3508580.0000, val_accuracy: 0.8234, val_loss: -4475196.0000
+Epoch 7 - accuracy: 0.8248, loss: -6005620.5000, val_accuracy: 0.8539, val_loss: -7362622.0000
+Epoch 8 - accuracy: 0.8251, loss: -9538491.0000, val_accuracy: 0.8320, val_loss: -11348636.0000
+Epoch 9 - accuracy: 0.8155, loss: -14247693.0000, val_accuracy: 0.8413, val_loss: -16523813.0000
+Epoch 10 - accuracy: 0.8171, loss: -20324278.0000, val_accuracy: 0.8056, val_loss: -23162868.0000
+Test accuracy: 0.8069134950637817
+Test loss: -21702432.0
+Currently trained data list: ['train.csv']
