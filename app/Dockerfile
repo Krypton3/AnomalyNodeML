@@ -1,5 +1,4 @@
-# First Stage: Build Environment
-FROM python:3.12 AS builder
+FROM python:3.12
 
 # Clear apt cache
 RUN rm -rf /var/lib/apt/lists/*
@@ -23,15 +22,6 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt \
     && rm -rf /root/.cache/pip
-
-# Second Stage: Final Image
-FROM python:3.12
-
-# Copy the installed Python packages from the builder stage
-COPY --from=builder /usr/local /usr/local
-
-# Set the working directory
-WORKDIR /app
 
 # Copy the 'app/' directory from the host to the container
 COPY . .

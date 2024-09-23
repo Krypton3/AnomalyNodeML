@@ -248,3 +248,11 @@ Epoch 10 - accuracy: 0.8171, loss: -20324278.0000, val_accuracy: 0.8056, val_los
 Test accuracy: 0.8069134950637817
 Test loss: -21702432.0
 Currently trained data list: ['train.csv']
+Data loaded and converted to DataFrame:            Date first seen  Duration  Proto    Src IP Addr  Src Pt    Dst IP Addr   Dst Pt  ...  Flows   Flags  Tos    class  attackType attackID attackDescription
+0  2017-03-16 13:03:02.581    30.997  TCP        12453_121       4     EXT_SERVER     80.0  ...      1  ....S.    0  unknown         ---      ---               ---
+1  2017-03-16 13:03:02.581    30.997  TCP       EXT_SERVER      80      12453_121      4.0  ...      1  .A..S.    0  unknown         ---      ---               ---
+2  2017-03-16 13:58:40.044     0.061  TCP       EXT_SERVER    8000  OPENSTACK_NET  52799.0  ...      1  .AP.SF    0   normal         ---      ---               ---
+3  2017-03-16 13:58:40.044     0.061  TCP    OPENSTACK_NET   52799     EXT_SERVER   8000.0  ...      1  .AP.SF    0   normal         ---      ---               ---
+4  2017-03-16 13:58:40.044     0.080  TCP       EXT_SERVER    8000  OPENSTACK_NET  52800.0  ...      1  .AP.SF    0   normal         ---      ---               ---
+
+[5 rows x 16 columns]
